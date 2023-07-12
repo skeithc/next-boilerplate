@@ -1,11 +1,11 @@
-{
-  "extends": [
-    "next/core-web-vitals",
-    "plugin:@next/next/recommended",
-    "airbnb",
-    "airbnb-typescript"
+module.exports = {
+  extends: [
+    'next/core-web-vitals',
+    'plugin:@next/next/recommended',
+    'airbnb',
+    'airbnb-typescript',
   ],
-  "rules": {
-    "react/react-in-jsx-scope": "off"
-  }
-}
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+  },
+};
