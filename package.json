@@ -11,6 +11,7 @@
     "typecheck": "tsc --noEmit --incremental --pretty"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.195",
     "@types/node": "^20.4.1",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
@@ -29,6 +30,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "next": "^13.4.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
