@@ -1,5 +1,8 @@
 module.exports = {
   plugins: ['prettier'],
+  parserOptions: {
+    project: './tsconfig.json',
+  },
   extends: [
     'next/core-web-vitals',
     'plugin:@next/next/recommended',
